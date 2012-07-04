@@ -1,2 +1,42 @@
 @import "less/bootstrap.less";
 //@import "less/responsive.less";
+
+    footer[role="contentinfo"] {
+
+        padding: 18px 0;
+        
+            #gradient > .vertical(@navbarBackground, @navbarBackgroundHighlight);
+            background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #666666;
+    background-image: url("img/texture.png");
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+  .box-shadow(~"3px 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1)");
+        
+    }
+    footer[role="contentinfo"] p {
+        margin: 0;
+    }
+        /* Sticky Footer styles begin */
+    html, body {
+        height: 100%;
+    }
+    #push {
+        height: 54px;
+    }
+    footer[role="contentinfo"] {
+        height: 18px; /* accounts for padding */
+    }
+    body > .container-fluid,
+    body > .container {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin: 0px auto -54px;
+    }
+    .hero-unit {
+        margin-top: 80px;
+    }
