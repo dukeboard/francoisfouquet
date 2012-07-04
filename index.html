@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Francois Fouquet personal page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal research page of Francois Fouquet">
-    <meta name="author" content="Francois Fouquet">
+<head>
+<meta charset="utf-8">
+<title>Francois Fouquet personal page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Personal research page of Francois Fouquet">
+<meta name="author" content="Francois Fouquet">
 
-    <!-- Le styles -->
-    <style type="text/css">
-      body {
+<!-- Le styles -->
+<style type="text/css">
+    body {
         padding-top: 80px;
         padding-bottom: 40px;
-      }
-      .nav > li.active:after {
+
+    }
+    .nav > li.active:after {
         content: ' ';
         height: 0;
         position: absolute;
@@ -22,90 +23,343 @@
         border-top-color: #2183c4;
         top: 100%;
         left: 6.5%;
-        margin-left: -15px;  
-      }
-    </style>
-    <link href="main.css" rel="stylesheet">
+        margin-left: -15px;
+    }
+</style>
+<link href="main.css" rel="stylesheet">
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    
-    <link rel="stylesheet" href="fonts/raphaelicons/raphaelicons.css" type="text/css">
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 
-  </head>
+<link rel="stylesheet" href="fonts/raphaelicons/raphaelicons.css" type="text/css">
 
-  <body>
+<script src="js/jquery-1.7.2.min.js"></script>
+<!-- jmpress plugin -->
+<script type="text/javascript" src="js/jmpress.min.js"></script>
+<!-- jmslideshow plugin : extends the jmpress plugin -->
+<script type="text/javascript" src="js/jquery.jmslideshow.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.48780.js"></script>
+<style>
+.jms-slideshow {
+    position: relative;
+    width: 80%;
+    margin: 20px auto;
+}
+.jms-wrapper {
+    width: auto;
+    min-width: 600px;
+    height: 250px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+    -webkit-background-clip: padding;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    border: 2px solid #fff;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    outline: none;
+    -webkit-transition: background-color 1s linear;
+    -moz-transition: background-color 1s linear;
+    -o-transition: background-color 1s linear;
+    -ms-transition: background-color 1s linear;
+    transition: background-color 1s linear;
+}
 
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
+.color-1 {
+    background-color: #292929;
+}
+
+.color-2 {
+    background-color: #3B3F41;
+}
+
+.step {
+    width: 900px;
+    height: 250px;
+    display: block;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+
+.step:not(.active) {
+    opacity: 0;
+    filter: alpha(opacity = 0); /* internet explorer */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+}
+
+.jms-content {
+    margin: 0px 100px 0px 20px;
+    position: relative;
+    clear: both;
+}
+
+
+a.jms-link {
+    color: #fff;
+    text-transform: uppercase;
+    background: #969696; /* Old browsers */
+    background: -moz-linear-gradient(top, #969696 0%, #727272 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #969696), color-stop(100%, #727272)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #969696 0%, #727272 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #969696 0%, #727272 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #969696 0%, #727272 100%); /* IE10+ */
+    background: linear-gradient(top, #969696 0%, #727272 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#969696', endColorstr = '#727272', GradientType = 0); /* IE6-9 */
+    padding: 8px 15px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    border: 1px solid #444;
+    border-radius: 4px;
+    opacity: 1;
+    margin-top: 40px;
+    clear: both;
+    -webkit-transition: all 0.4s ease-in-out 1s;
+    -moz-transition: all 0.4s ease-in-out 1s;
+    -ms-transition: all 0.4s ease-in-out 1s;
+    -o-transition: all 0.4s ease-in-out 1s;
+    transition: all 0.4s ease-in-out 1s;
+}
+
+.step:not(.active) a.jms-link {
+    opacity: 0;
+    margin-top: 80px;
+}
+
+.step img {
+    position: absolute;
+    right: 0px;
+    top: 30px;
+}
+
+.jms-dots {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    bottom: 20px;
+    z-index: 2000;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.jms-dots span {
+    display: inline-block;
+    position: relative;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #777;
+    margin: 3px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1) inset, 1px 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.jms-dots span.jms-dots-current:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(47%, #f6f6f6), color-stop(100%, #ededed)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* IE10+ */
+    background: linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#ededed', GradientType = 0); /* IE6-9 */
+}
+
+.jms-arrows {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.jms-arrows span {
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    height: 80px;
+    width: 30px;
+    cursor: pointer;
+    z-index: 2000;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.jms-arrows span.jms-arrows-prev {
+    background: #fff url(img/arrow_left.png) no-repeat 50% 50%;
+    left: -10px;
+}
+
+.jms-arrows span.jms-arrows-next {
+    background: #fff url(img/arrow_right.png) no-repeat 50% 50%;
+    right: -10px;
+}
+
+    /* Not supported style */
+.jms-wrapper.not-supported {
+    background-color: #E3D8FF;
+    background-color: rgba(227, 216, 268, 1);
+}
+
+.jms-wrapper.not-supported:after {
+    content: 'The slideshow functionality is not supported on your device.';
+    padding: 0px 0px 30px 0px;
+    text-align: center;
+    display: block;
+}
+.jms-wrapper.not-supported .step {
+    display: none;
+    position: relative;
+    opacity: 1;
+    filter: alpha(opacity = 99); /* internet explorer */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
+    margin: 20px auto;
+}
+.jms-wrapper.not-supported .step:first-of-type {
+    display: block;
+}
+.jms-wrapper.not-supported .step:not(.active) a.jms-link {
+    opacity: 1;
+    margin-top: 40px;
+}
+
+.step h3{
+    font-size: 65px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    margin: 0;
+    padding: 1px 0 40px 0;
+}
+.step p {
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    font-size: 40px;
+    font-weight: normal;
+    position: relative;
+    margin: 0;
+}
+</style>
+</head>
+
+<body>
+
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
         <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="#"><b>Francois Fouquet</b></a>
-          <div class="nav-collapse">
-            <ul class="nav">
-              <li class="active"><a href="index.html"><span class="iconraph">S</span> HOME</a></li>
-              <li><a href="#about"><span class="iconraph">L</span> ABOUT ME</a></li>
-              <li><a href="research.html"><span class="iconraph">></span> RESEARCH</a></li>
-              <li><a href="#about"><span class="iconraph">U</span> PROJECTS</a></li>
-              <li><a href="#about"><span class="iconraph">Ô</span> TEACHING</a></li>
-              <li><a href="#contact"><span class="iconraph">[</span> CONTACT</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="#"><b>Francois Fouquet</b></a>
+
+            <div class="nav-collapse">
+                <ul class="nav">
+                    <li class="active"><a href="index.html"><span class="iconraph">S</span> HOME</a></li>
+                    <li><a href="about.html"><span class="iconraph">L</span> ABOUT ME</a></li>
+                    <li><a href="research.html"><span class="iconraph">></span> RESEARCH</a></li>
+                    <li><a href="projects.html"><span class="iconraph">U</span> PROJECTS</a></li>
+                    <li><a href="teaching.html"><span class="iconraph">Ô</span> TEACHING</a></li>
+                    <li><a href="contact.html"><span class="iconraph">[</span> CONTACT</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
         </div>
-      </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <!-- Main hero unit for a primary marketing message or call to action -->
+    <div class="hero-unit">
+        <h1><span class="iconraph">Ñ</span> Hello,</h1>
+
+        <p>I'm currently a PhD student at INRIA/IRISA Rennes Bretagne Atlantique. Working in the Triskell Team my topics
+            of interest are Distributed Systems, Middlewares, Model Driven Engineering.</p>
+
+        <p>Software engineer and open source enthusiast I use and develop tools to promote software architecture. I also
+            teach around those subjects at University of Rennes 1.</p>
     </div>
 
-    <div class="container">
 
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
-        <h1><span class="iconraph">Ñ</span> Hello,</h1>
-        <p>I'm currently a PhD student at INRIA/IRISA Rennes Bretagne Atlantique. Working in the Triskell Team my topics of interest are Distributed Systems, Middlewares, Model Driven Engineering.</p>
-        <p>Software engineer and open source enthusiast I use and develop tools to promote software architecture. I also teach around those subjects at University of Rennes 1.</p>
-      </div>
-
-      <p>This website summarize my activities.</p>
-
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="span12">
-          <h2>Research</h2>
-           <p>More informations about my reasearch activities, list of my publication</p>
-          <p><a class="btn" href="research.html">View details &raquo;</a></p>
+    <section id="jms-slideshow" class="jms-slideshow" style="width: 100%;position: relative;">
+        <div class="step" data-color="color-1">
+            <div class="jms-content">
+                <h3><span class="iconraph">L</span> About me...</h3>
+                <p>Who I am, my work, my CV</p>
+                <a class="jms-link" href="about.html">Read more</a>
+            </div>
         </div>
-      </div>
-
-      <div class="row">
-        <div class="span12">
-          <h2>Projects</h2>
-           <p>My development activity</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+        <div class="step" data-color="color-2" data-y="500" data-scale="0.4" data-rotate-x="30">
+            <div class="jms-content">
+                <h3><span class="iconraph">></span> My research activity</h3>
+                <p>A list of my publication</p>
+                <a class="jms-link" href="research.html">Read more</a>
+            </div>
         </div>
-      </div>
-
-      <div class="row">
-        <div class="span12">
-          <h2>Teaching</h2>
-           <p>Coming soon...</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+        <div class="step" data-color="color-1" data-x="2000" data-z="3000" data-rotate="170">
+            <div class="jms-content">
+                <h3><span class="iconraph">U</span> Open source projects</h3>
+                <p>I'm a developer, see my projects list</p>
+                <a class="jms-link" href="projects.html">Read more</a>
+            </div>
         </div>
-      </div>
+        <div class="step" data-color="color-2" data-x="3000">
+            <div class="jms-content">
+                <h3><span class="iconraph">Ô</span> Teaching activities</h3>
+                <p>A list of my courses</p>
+                <a class="jms-link" href="teaching.html">Read more</a>
+            </div>
+        </div>
+        <div class="step" data-color="color-1" data-x="4500" data-z="1000" data-rotate-y="45">
+            <div class="jms-content">
+                <h3><span class="iconraph">[</span> Contact me</h3>
+                <p>Get in touch !</p>
+                <a class="jms-link" href="contact.html">Read more</a>
+            </div>
+        </div>
+    </section>
 
+    <script type="text/javascript">
+        $(function () {
+            var jmpressOpts	= {
+                animation		: { transitionDuration : '0.7s' }
+            };
+            $( '#jms-slideshow' ).jmslideshow( $.extend( true, { jmpressOpts : jmpressOpts }, {
+                autoplay	: true,
+                bgColorSpeed: '0.7s',
+                arrows		: true
+            }));
+        });
+    </script>
 
-      <hr />
+    <hr/>
 
-      <footer>
+    <footer>
         <p>Fouquet Francois, <a href="mailto:fouquet.f@gmail.com"/>fouquet.f@gmail.com</p>
-      </footer>
+    </footer>
 
-    </div> <!-- /container -->
+</div>
+<!-- /container -->
 
-    <script src="js/jquery-1.7.2.min.js"></script>
-  </body>
+</body>
 </html>

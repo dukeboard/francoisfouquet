@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Francois Fouquet personal page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal research page of Francois Fouquet">
+    <meta name="author" content="Francois Fouquet">
+
+    <!-- Le styles -->
+    <style type="text/css">
+        body {
+            padding-top: 80px;
+            padding-bottom: 40px;
+        }
+
+        .nav > li.active:after {
+            content: ' ';
+            height: 0;
+            position: absolute;
+            width: 0;
+            border: 15px solid transparent;
+            border-top-color: #2183c4;
+            top: 100%;
+            left: 56.5%;
+            margin-left: -15px;
+        }
+    </style>
+    <link href="main.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="fonts/raphaelicons/raphaelicons.css" type="text/css">
+
+</head>
+
+<body>
+
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="#"><b>Francois Fouquet</b></a>
+
+            <div class="nav-collapse">
+                <ul class="nav">
+                    <li><a href="index.html"><span class="iconraph">S</span> HOME</a></li>
+                    <li><a href="about.html"><span class="iconraph">L</span> ABOUT ME</a></li>
+                    <li><a href="research.html"><span class="iconraph">></span> RESEARCH</a></li>
+                    <li class="active"><a href="projects.html"><span class="iconraph">U</span> PROJECTS</a></li>
+                    <li><a href="teaching.html"><span class="iconraph">Ô</span> TEACHING</a></li>
+                    <li><a href="contact.html"><span class="iconraph">[</span> CONTACT</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+
+    <!-- Main hero unit for a primary marketing message or call to action -->
+    <div class="hero-unit">
+        <h1><span class="iconraph">Å</span> Projects where I'm involved...</h1>
+    </div>
+
+    <div class="row">
+        <div class="span12">
+            <h1>Kevoree</h1>
+
+            <p>
+                Build around the Model@Runtime techniques following the <a target="_blank"
+                                                                           href="http://www.ict-diva.eu/">Diva
+                project</a>, this project aims at taming the complexity of building
+                distributed adaptive systems.
+                Kevoree modeling tools offer an abstract ways to continuously design and develop components based
+                distributed systems.
+                This model allows to express most of distributed systems concerns like Node, Components, Communication
+                channels and synchronization groups.
+                By distributing architectural models itself Kevoree allows to manage cluster of nodes with severals
+                algorithms like Gossip, Paxos.
+                Initially build for Java platform, Kevoree runtime now cover and manages heterogeneous devices like:
+            <ul>
+                <li>IoT devices on micro-controllers (Arduino, AVR, ARM)</li>
+                <li>Android platforms (Phone, Tablet)</li>
+                <li>Cloud infrastructures (KVM, EC2, FreeBSD Jails)</li>
+            </ul>
+            </p>
+            <h4 style="display: inline">Role:</h4> Project initial architect and main developer<br/>
+            <h4 style="display: inline">Technologies:</h4> Scala, Java, C, Processing, EMF, Arduino, AVR, OSGi,
+            Maven<br/>
+            <h4 style="display: inline">Link: </h4> <a href="http://kevoree.org" target="_blank">Kevoree.org</a><br/>
+            <h4>Target case study:</h4>
+            <ul>
+                <li>Home automation gateways</li>
+                <li>Tactical on-field systems for firefighters</li>
+                <li>SmartBuilding</li>
+                <li>Cloud PaaS</li>
+                <li>Sensor networks</li>
+            </ul>
+        </div>
+    </div>
+    <br/>
+
+    <div class="row">
+        <div class="span12">
+            <h1>Kevoree Modeling Frameworks</h1>
+
+            <p>This project was developed to improve the use of modeling techniques@Runtime. KMF offers an alternative
+                to Eclipse Modeling Framework by provided generator from EMOF model to Java plain POJO. Compliance with
+                XMI format this framework outperform EMF on memory usage and load/save mecanisme allowing to be embedded
+                in tiny platforms.
+            </p>
+            <h4 style="display: inline">Role:</h4> Project co-initial architect and developer<br/>
+            <h4 style="display: inline">Technologies:</h4> Scala, Java, EMF<br/>
+            <h4 style="display: inline">Link: </h4> <a href="https://github.com/dukeboard/kevoree-modeling-framework"
+                                                       target="_blank">KMF GitHub</a><br/>
+        </div>
+    </div>
+    <br/>
+
+    <div class="row">
+        <div class="span12">
+            <h1>Kermeta meta-modeling platform</h1>
+
+            <p>Kermeta is the core of the model-oriented platform developped in the Triskell team. It has been validated
+                with a wide range of applications including model transformation, model conposition and weaving and the
+                specification of dedicated modeling languages.
+            </p>
+            <h4 style="display: inline">Role:</h4> Compiler / Parser designer and developer<br/>
+            <h4 style="display: inline">Technologies:</h4> Scala, Java, EMF, Eclipse, Maven<br/>
+            <h4 style="display: inline">Link: </h4> <a href="http://www.kermeta.org" target="_blank">Kermeta website</a><br/>
+        </div>
+    </div>
+    <br/>
+
+    <div class="row">
+        <div class="span12">
+            <h1>ThingML</h1>
+
+            <p>The idea of ThingML is to develop a practical model-driven software engineering tool-chain which targets
+                resource constrained embedded systems such as low-power sensor and microcontroller based devices.
+            </p>
+            <h4 style="display: inline">Role:</h4> Contributor<br/>
+            <h4 style="display: inline">Technologies:</h4> Eclipse, EMF, Scala, C/C++, AVR and MSP microcontrollers,
+            Arduino<br/>
+            <h4 style="display: inline">Link: </h4> <a href="http://www.thingml.org" target="_blank">ThingML</a><br/>
+        </div>
+    </div>
+    <br/>
+
+    <div class="row">
+        <div class="span12">
+            <h1>Kevoree ClassLoader</h1>
+            <p>This project aims at offering a very flexible alternative to OSGi core. In a nutshell KCL is a very
+                simple maven driven OSGi with the ability of linking dynamically classloaders each others. KCL offer
+                also natively the ability to dynamically load artifacts in android platform.
+            </p>
+            <h4 style="display: inline">Role:</h4> Project initial architect and main developer<br/>
+            <h4 style="display: inline">Technologies:</h4> Eclipse, EMF, Scala, C/C++, AVR and MSP microcontrollers,
+            Arduino<br/>
+            <h4 style="display: inline">Link: </h4> <a href="http://www.thingml.org" target="_blank">ThingML</a><br/>
+        </div>
+    </div>
+    <br/>
+
+
+    <br/>
+    <hr/>
+
+    <footer>
+        <p>Fouquet Francois, <a href="mailto:fouquet.f@gmail.com"/>fouquet.f@gmail.com</p>
+    </footer>
+
+</div>
+<!-- /container -->
+
+<script src="js/jquery-1.7.2.min.js"></script>
+</body>
+</html>
