@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{#basics}}{{name}}: {{label}}{{/basics}}</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="resume.css" media="all" />
+</head>
+<body>
+    <div id="doc2" class="yui-t2">
+        <div id="inner">
+            <div id="hd"></div>
+            <div id="bd">
+                <div id="yui-main">
+                    <div class="yui-b right-main">
+                        {{#basics}}
+                        {{#summary}}
+                        <div class="yui-gf">
+                            <div class="yui-u">
+                                <h2>Research project</h2>
+                                <p>{{summary}}</p>
+                            </div>
+                        </div>
+                        <!--// .yui-gf -->
+                        {{/summary}}
+                        {{/basics}}
+                        <div class="yui-gf">
+                            <div class="yui-u">
+                                <h2>Experience</h2>
+                                {{#work}}
+                                    <div class="job {{#last}}last{{/last}}">
+                                        <h5>{{position}}, <span>{{company}}</span></h5>
+                                        <h4>{{startDate}} - {{endDate}}</h4>
+                                        {{#summary}}
+                                        <p>{{summary}}</p>
+                                        {{/summary}}
+                                        {{#highlights}}
+                                            <p>{{.}}</p>
+                                        {{/highlights}}
+                                    </div>
+                                {{/work}}
+                            </div>
+                        </div>
+                        <!--// .yui-gf -->
+                        <div class="yui-gf">
+                            <div class="yui-u education">
+                                <h2>Education</h2>
+                                {{#education}}
+                                    <div class="job {{#last}}last{{/last}}">
+                                        <h5>{{institution}}, <span>{{studyType}}, {{area}}</span></h5>
+                                        <h4>{{startDate}} - {{endDate}}</h4>
+                                        {{#coursework}}
+                                        <p>Coursework: {{coursework}}</p>
+                                        {{/coursework}}
+                                    </div>
+                                {{/education}}
+                            </div>
+                        </div>
+                        <!--// .yui-gf -->
+                        <div class="yui-gf">
+                            <div class="yui-u">
+                                <h2>Supervision</h2>
+                                {{#supervision}}
+                                <div class="job {{#last}}last{{/last}}">
+                                    <h5>{{name}} <i>{{position}}</i></h5>
+                                    <h4>{{startDate}} - {{endDate}}</h4>
+                                    <p>Topic: {{topic}}</p>
+                                    {{#keywords}}
+                                    <p>Keywords: {{keywords}}</p>
+                                    {{/keywords}}
+                                </div>
+                                {{/supervision}}
+                            </div>
+                        </div>
+                        <!--// .yui-gf -->
+                        <div class="yui-gf">
+                            <div class="yui-u">
+                                <h2>Selected publications</h2>
+                                {{#publications}}
+                                <div class="job {{#last}}last{{/last}}">
+                                    <h5>{{name}}</h5>
+                                    <p>{{publisher}} <i>({{year}})</i></p>
+                                    <p>{{authors}}</p>
+                                    {{#bestpaper}}
+                                    <p><b>Best paper award</b></p>
+                                    {{/bestpaper}}
+                                </div>
+                                {{/publications}}
+                            </div>
+                        </div>
+                        <!--// .yui-gf -->
+                    </div>
+                    <!--// .yui-b -->
+                </div>
+                <!--// yui-main -->
+                <div class="yui-b left-nav" style="width: 220px;">
+                    <div class="yui-gf">
+                        <div class="yui-u">
+                            {{#basics}}
+                            <div class="name">
+                                <h2><span>{{name}}</span></h2>
+                            </div>
+                            <div class="contact-info">
+                                <h5><i>{{label}}</i></h5>
+                                <p>{{company}}</p>
+                                <p>{{city}}</p>
+                                <p>{{email}}</p>
+                                <p>{{phone}}</p>
+                            </div>
+                            {{/basics}}
+                            <!--// .contact-info -->
+                            <div class="languages">
+                                <h2>Skills</h2>
+                                {{#skills}}
+                                <div class="job">
+                                    <h5>{{name}}</h5>
+                                    {{#keywords}}
+                                    <p>{{.}}</p>
+                                    {{/keywords}}
+                                </div>
+                                {{/skills}}
+                                <div class="job">
+                                    <h5>Languages</h5> {{#languages}}
+                                    <p>{{language}}: ({{fluency}})</p>
+                                    {{/languages}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--// .yui-gf -->
+                </div>
+                <!--// .yui-b-->
+            </div>
+            <!--// bd -->
+            <div id="ft">
+            </div>
+            <!--// footer -->
+        </div>
+        <!-- // inner -->
+    </div>
+    <!--// doc -->
+</body>
+</html>

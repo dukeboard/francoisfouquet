@@ -1,0 +1,271 @@
+{
+  "basics": {
+    "name": "Dr Francois Fouquet",
+    "label": "Research Associate",
+    "company": "SnT Luxembourg",
+    "city": "Luxembourg",
+    "email": "francois.fouquet@uni.lu",
+    "phone": "+352 466644 5387",
+    "summary": "Since my PhD, my research objectives are targeting the software engineering methods to build distributed, large-scale smart systems. As a framework design, my prototypes try to represent the backbone data layer to empower reasoning engine for Smart Systems. Since two years now, my research is now focused on the construction of time-aware systems, leveraging innovative solutions to represent temporal data using physics quantum theory to better distributed massive models. I’m mainly applying this the construction of SmartGrid systems, able for instance, to detect or predict suspicious or overload values. Towards Intelligent systems, I’m working to include the use of machine learning directly into these data structure in order create synergies between Big Data, forecasting systems and simulation mechanisms.",
+    "location": {
+      "address": "4 rue Alphonse Weicker L-2721 Luxembourg",
+      "postalCode": "1457",
+      "city": "Luxembourg",
+      "countryCode": "LU"
+    }
+  },
+  "work": [
+    {
+      "company": "SnT Luxembourg (LU)",
+      "position": "Research Associate",
+      "startDate": "January 2013",
+      "endDate": "Present",
+      "summary": "In collaboration with the Luxembourgish electricity provider CREOS, I'm working to create Intelligent Systems to detect suspicious values or potential grid overload",
+      "highlights": [
+        "SmartGrid security leveraging live and real-time reactive security",
+        "Intelligent Systems and Big Data modeling",
+        "IoT and near real-time analytics"
+      ]
+    },
+    {
+      "company": "IRISA/INRIA/University of Rennes 1 (FR)",
+      "position": "PhD Student",
+      "startDate": "October 2009",
+      "endDate": "March 2013",
+      "summary": "PhD topic: Kevoree Project a Model@Runtime approach to build and design continoulsy distributed, heterogenous and self adaptive systems from Internet of Things to Cloud infrastructures",
+      "highlights": [
+        "Keywords: Model Driven Engineering, Domain Specific Language, Component & Service architecture, Dynamic Self-adaptive Systems, Model@Runtime"
+      ]
+    },
+     {
+      "company": "SINTEF Oslo (NO)",
+      "position": "Invited Researcher",
+      "startDate": "October 2011",
+      "endDate": "July 2012",
+      "summary": "The goal of this visit was to create a software kernel to dynamically update the firmware of Internet of Things devices",
+      "highlights": [
+        "Keywords: IoT, Arduino, Embedded softare, Component & Service architecture, Dynamic Self-adaptive Systems, Model@Runtime"
+      ]
+    },
+    {
+      "company": "Internship as a SOA Architect (FR)",
+      "position": "Capgemini France",
+      "startDate": "March 2009",
+      "endDate": "September 2009",
+      "summary": "Developement of a reference architecture for high availibity ESB based systems",
+      "highlights": [
+        "On-field P2P (wifi + 3G) data management system for emergency services",
+        "Message oriented middleware in dynamic and distributed environment",
+        "A geolocalization system to collect, monitor and create alerts for fishing boats",
+        "A communication front-end realisation for the french ministry of equipment and the european project Fishing Monitoring Center"
+      ]
+    }, 
+    {
+      "company": "Tehoo.fr (FR)",
+      "position": "Cofounder of a start-up project",
+      "startDate": "April 2008",
+      "endDate": "September 2008",
+      "summary": "Co-foundation of a 4 developers project to develop an innovative social network based on mobile location capabilities"
+    },
+    {
+      "company": "Dimension IT (FR)",
+      "position": "Architect developer",
+      "startDate": "June 2007",
+      "endDate": "September 2007",
+      "summary": "Developement of a specific ERP kernel to manage authentification on cluster of distributed servers acting as experimental Wifi mesh network Internet Access Points"
+    },
+    {
+      "company": "PrydeGroup (FR)",
+      "location": "Lille, France",
+      "position": "Developer, Consultant",
+      "startDate": "June 2006",
+      "endDate": "October 2009",
+      "summary": "Business intelligent dashboard developement integrated into two ERP information system products: Oracle Application and TexasWin. Real-time and collaborative tools has been included into the module, compliance with mobile devices"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Rennes 1",
+      "area": "Computer Science",
+      "studyType": "PhD",
+      "startDate": "2009",
+      "endDate": "2013",
+      "coursework" : "Distributed Systems, Adaptive Systems, Meta-Modeling, Self-adaptation strategy, Genetic Algorithms, Data Mining"
+    },
+    {
+      "institution": "University of Rennes 1",
+      "area": "Computer Science",
+      "studyType": "Master",
+      "startDate": "2007",
+      "endDate": "2009",
+      "coursework" : "SOA, Large scale developements, Intelligent Algorithms, Software Engineering, Machine Organization"
+    },
+    {
+      "institution": "University of Rennes 1",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2006",
+      "endDate": "2007",
+      "coursework" : "Algorithms, Data Structures, Databases"
+    },    
+    {
+      "institution": "University of La Rochelle",
+      "area": "Computer Science",
+      "studyType": "DUT",
+      "startDate": "2004",
+      "endDate": "2006",
+      "coursework" : "Software Engineering, Data modeling, Project management"
+    }
+  ],
+  "supervision": [
+    {
+      "name": "Donia EL KATEB",
+      "position": "PhD Student",
+      "topic": "Balancing non-functional requirements in cloud-based software: An approach based on security-aware design and multi-objective software dynamic management",
+      "keywords": "Cloud, Genetic Algorithms, Optimization, Reasoning Engine, Models@Run.time",
+      "startDate": "2013",
+      "endDate": "2015"
+    },
+    {
+      "name": "Thomas HARTMANN",
+      "position": "PhD Student",
+      "topic": "Reactive Security for Smart Grids Using Models@run.time-Based Simulation and Reasoning",
+      "keywords": "Models@Run.time, Time distortion, Quantum Thoery, BigData, What-if analytics",
+      "startDate": "2014",
+      "endDate": "Present"
+    },
+    {
+      "name": "Assaad MOAWAD",
+      "position": "PhD Student",
+      "topic": "Live machine learning on top of Models@Run.time for more seamless integrated SmartSystems",
+      "keywords": "Models@Run.time, Time distortion, BigData, Live Machine Learning, Privacy",
+      "startDate": "2014",
+      "endDate": "Present"
+    },
+    {
+      "name": "Jerome RANCATI",
+      "position": "Master Student",
+      "topic": "Intelligent dashboard for IOT leveraging What-If analytics",
+      "keywords": "Models@Run.time, Live Machine Learning, IHM, IOT",
+      "startDate": "2015",
+      "endDate": "Present"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Polymer: A Model-Driven Approach for Simpler, Safer, and Evolutive Multi-Objective Optimization Development",
+      "publisher": "International Conference on Model-Driven Engineering and Software Development",
+      "authors": "Moawad, A., Hartmann, T., Fouquet, F., Nain, G., Klein, J., & Bourcier, J.",
+      "year": "2015"
+    },     
+    {
+      "name": "Model-based time-distorted Contexts for efficient temporal Reasoning",
+      "publisher": "International Conference on Software Engineering and Knowledge Engineering",
+      "authors": "Hartmann, T., Fouquet, F., Nain, G., Brice, M., Klein, J., & Le Traon, Y.",
+      "year": "2014",
+      "bestpaper":true
+    },
+    {
+      "name": "A Native Versioning Concept to Support Historized Models at Runtime",
+      "publisher": "International Conference on Model Driven Engineering Languages and Systems",
+      "authors": "Hartmann, T., Fouquet, F., Nain, G., Morin, B., Klein, J., Barais, O., & Le Traon, Y.",
+      "year": "2014"
+    },
+    {
+      "name": "Reactive Security for Smart Grids Using Models@run.time-Based Simulation and Reasoning",
+      "publisher": "Second International Workshop on Smart Grid Security",
+      "authors":"Hartmann, T., Fouquet, F., Klein, J., Nain, G., & Le Traon, Y.",
+      "year": "2014"
+    }, 
+    {
+      "name": "Generating realistic Smart Grid communication topologies based on real-data",
+      "publisher": "International Conference on Smart Grid Communications",
+      "authors": "Hartmann, T., Fouquet, F., Klein, J., Le Traon, Y., Pelov, A., Toutain, L., & Ropitault, T.",
+      "year": "2014"
+    }, 
+    {
+      "name": "Designing and evolving distributed architecture using kevoree",
+      "publisher": "International Conference on Quality of Software Architectures",
+      "authors": "Fouquet, F., Nain, G., Daubert, E., Bourcier, J., Barais, O., Plouzeau, N., & Morin, B.",
+      "year": "2014"
+    }, 
+    {
+      "name": "Generic cloud platform multi-objective optimization leveraging models@run.time",
+      "publisher": "Symposium On Applied Computing",
+      "authors": "El Kateb, D., Fouquet, F., Nain, G., Meira, J. A., Ackerman, M., & Le Traon, Y. ",
+      "year": "2014"
+    },
+    {
+      "name": "An eclipse modelling framework alternative to meet the models@ runtime requirements",
+      "publisher": "International Conference on Model Driven Engineering Languages and Systems",
+      "authors": "Fouquet, F., Nain, G., Morin, B., Daubert, E., Barais, O., Plouzeau, N., & Jézéquel, J. M. ",
+      "year": "2012"
+    }, 
+    {
+      "name": "A dynamic component model for cyber physical systems",
+      "publisher": "Symposium on Component Based Software Engineering",
+      "authors": "Fouquet, F., Morin, B., Fleurey, F., Barais, O., Plouzeau, N., & Jezequel, J. M.",
+      "year": "2012"
+    },
+    {
+      "name": "Integrating IoT and IoS with a Component-Based Approach",
+      "publisher": "Euromicro Conference series on Software Engineering and Advanced Applications",
+      "authors": "Nain, G., Fouquet, F., Morin, B., Barais, O., & Jézéquel, J. M.",
+      "year": "2010"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "Java, Go, Scala, Kotlin,",
+        "JavaScript, Dart, C, C++,..."
+      ]
+    },
+    {
+      "name": "Design principles",
+      "keywords": [
+        "UML, MOF, Design pattern,",
+        "MDE, Reactive programing,",
+        "Stream, MapReduce,..."
+      ]
+    },
+    {
+      "name": "Data storage",
+      "keywords": [
+        "MySQL, Oracle, PostgresSQL,",
+        "MongoDB, Neo4J, Cassendra,",
+        "LevelDB, Redis,..."
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "keywords": [
+        "Gaussian Mixture, Kernel,",
+        "SVM, Random forest,..."
+      ]
+    },
+    {
+      "name": "Middlewares",
+      "keywords": [
+        "*ESB, *MQ (ActiveMQ, AMQP),",
+        "Gossip*, Paxos*, Raft*, ",
+        "AJAX, WebSocket, WebRTC,..."
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },    
+    {
+      "language": "German",
+      "fluency": "Beginner"
+    }
+  ]
+}
