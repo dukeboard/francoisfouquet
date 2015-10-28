@@ -119,14 +119,6 @@
   ],
   "supervision": [
     {
-      "name": "Donia EL KATEB",
-      "position": "PhD Student",
-      "topic": "Balancing non-functional requirements in cloud-based software: An approach based on security-aware design and multi-objective software dynamic management",
-      "keywords": "Cloud, Genetic Algorithms, Optimization, Reasoning Engine, Models@Run.time",
-      "startDate": "2013",
-      "endDate": "2015"
-    },
-    {
       "name": "Thomas HARTMANN",
       "position": "PhD Student",
       "topic": "Reactive Security for Smart Grids Using Models@run.time-Based Simulation and Reasoning",
@@ -143,15 +135,41 @@
       "endDate": "Present"
     },
     {
+      "name": "Donia EL KATEB",
+      "position": "PhD Student",
+      "topic": "Balancing non-functional requirements in cloud-based software: An approach based on security-aware design and multi-objective software dynamic management",
+      "keywords": "Cloud, Genetic Algorithms, Optimization, Reasoning Engine, Models@Run.time",
+      "startDate": "2013",
+      "endDate": "2015"
+    },
+    {
       "name": "Jerome RANCATI",
       "position": "Master Student",
       "topic": "Intelligent dashboard for IOT leveraging What-If analytics",
       "keywords": "Models@Run.time, Live Machine Learning, IHM, IOT",
       "startDate": "2015",
-      "endDate": "Present"
+      "endDate": "2015"
     }
   ],
   "publications": [
+    {
+            "name": "Suspicious Electric Consumption Detection Based on Multi-Profiling Using Live Machine Learning",
+            "publisher": "International Conference on Smart Grid Communications",
+            "authors": "Hartmann, T., Moawad, A., Fouquet, F., Reckinger, Y., Mouelhi, T., Klein, J., & Le Traon, Y.",
+            "year": "2015"
+    },
+    {
+          "name": "Beyond Discrete Modeling: Continuous and Efficient Models@Run.time for IoT",
+          "publisher": "International Conference on Model Driven Engineering Languages and Systems",
+          "authors": "Moawad, A., Hartmann, T., Fouquet, F., Nain, G., Klein, J., & Le Traon, Y.",
+          "year": "2015"
+    },
+    {
+        "name": "Stream my Models: Reactive Peer-to-Peer Distributed Models@run.time",
+        "publisher": "International Conference on Model Driven Engineering Languages and Systems",
+        "authors": "Hartmann, T., Moawad, A., Fouquet, F., Nain, G., Klein, J., & Le Traon, Y.",
+        "year": "2015"
+    }, 
     {
       "name": "Polymer: A Model-Driven Approach for Simpler, Safer, and Evolutive Multi-Objective Optimization Development",
       "publisher": "International Conference on Model-Driven Engineering and Software Development",
@@ -171,12 +189,6 @@
       "authors": "Hartmann, T., Fouquet, F., Nain, G., Morin, B., Klein, J., Barais, O., & Le Traon, Y.",
       "year": "2014"
     },
-    {
-      "name": "Reactive Security for Smart Grids Using Models@run.time-Based Simulation and Reasoning",
-      "publisher": "Second International Workshop on Smart Grid Security",
-      "authors":"Hartmann, T., Fouquet, F., Klein, J., Nain, G., & Le Traon, Y.",
-      "year": "2014"
-    }, 
     {
       "name": "Generating realistic Smart Grid communication topologies based on real-data",
       "publisher": "International Conference on Smart Grid Communications",
@@ -206,12 +218,6 @@
       "publisher": "Symposium on Component Based Software Engineering",
       "authors": "Fouquet, F., Morin, B., Fleurey, F., Barais, O., Plouzeau, N., & Jezequel, J. M.",
       "year": "2012"
-    },
-    {
-      "name": "Integrating IoT and IoS with a Component-Based Approach",
-      "publisher": "Euromicro Conference series on Software Engineering and Advanced Applications",
-      "authors": "Nain, G., Fouquet, F., Morin, B., Barais, O., & Jézéquel, J. M.",
-      "year": "2010"
     }
   ],
   "skills": [
