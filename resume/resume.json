@@ -59,7 +59,7 @@
         "A geolocalization system to collect, monitor and create alerts for fishing boats",
         "A communication front-end realisation for the french ministry of equipment and the european project Fishing Monitoring Center"
       ]
-    }, 
+    },
     {
       "company": "Tehoo.fr (FR)",
       "position": "Cofounder of a start-up project",
@@ -107,7 +107,7 @@
       "startDate": "2006",
       "endDate": "2007",
       "coursework" : "Algorithms, Data Structures, Databases"
-    },    
+    },
     {
       "institution": "University of La Rochelle",
       "area": "Computer Science",
@@ -135,19 +135,19 @@
       "endDate": "Present"
     },
     {
+      "name": "Ludovic MOULINE",
+      "position": "PhD Student",
+      "topic": "Intelligent dashboard for IOT leveraging What-If analytics",
+      "keywords": "Models@Run.time, Live Machine Learning, IHM, IOT",
+      "startDate": "2015",
+      "endDate": "Present"
+    },
+    {
       "name": "Donia EL KATEB",
       "position": "PhD Student",
       "topic": "Balancing non-functional requirements in cloud-based software: An approach based on security-aware design and multi-objective software dynamic management",
       "keywords": "Cloud, Genetic Algorithms, Optimization, Reasoning Engine, Models@Run.time",
       "startDate": "2013",
-      "endDate": "2015"
-    },
-    {
-      "name": "Jerome RANCATI",
-      "position": "Master Student",
-      "topic": "Intelligent dashboard for IOT leveraging What-If analytics",
-      "keywords": "Models@Run.time, Live Machine Learning, IHM, IOT",
-      "startDate": "2015",
       "endDate": "2015"
     }
   ],
@@ -169,13 +169,13 @@
         "publisher": "International Conference on Model Driven Engineering Languages and Systems",
         "authors": "Hartmann, T., Moawad, A., Fouquet, F., Nain, G., Klein, J., & Le Traon, Y.",
         "year": "2015"
-    }, 
+    },
     {
       "name": "Polymer: A Model-Driven Approach for Simpler, Safer, and Evolutive Multi-Objective Optimization Development",
       "publisher": "International Conference on Model-Driven Engineering and Software Development",
       "authors": "Moawad, A., Hartmann, T., Fouquet, F., Nain, G., Klein, J., & Bourcier, J.",
       "year": "2015"
-    },     
+    },
     {
       "name": "Model-based time-distorted Contexts for efficient temporal Reasoning",
       "publisher": "International Conference on Software Engineering and Knowledge Engineering",
@@ -194,13 +194,13 @@
       "publisher": "International Conference on Smart Grid Communications",
       "authors": "Hartmann, T., Fouquet, F., Klein, J., Le Traon, Y., Pelov, A., Toutain, L., & Ropitault, T.",
       "year": "2014"
-    }, 
+    },
     {
       "name": "Designing and evolving distributed architecture using kevoree",
       "publisher": "International Conference on Quality of Software Architectures",
       "authors": "Fouquet, F., Nain, G., Daubert, E., Bourcier, J., Barais, O., Plouzeau, N., & Morin, B.",
       "year": "2014"
-    }, 
+    },
     {
       "name": "Generic cloud platform multi-objective optimization leveraging models@run.time",
       "publisher": "Symposium On Applied Computing",
@@ -212,7 +212,7 @@
       "publisher": "International Conference on Model Driven Engineering Languages and Systems",
       "authors": "Fouquet, F., Nain, G., Morin, B., Daubert, E., Barais, O., Plouzeau, N., & Jézéquel, J. M. ",
       "year": "2012"
-    }, 
+    },
     {
       "name": "A dynamic component model for cyber physical systems",
       "publisher": "Symposium on Component Based Software Engineering",
@@ -268,7 +268,7 @@
     {
       "language": "English",
       "fluency": "Fluent"
-    },    
+    },
     {
       "language": "German",
       "fluency": "Beginner"
