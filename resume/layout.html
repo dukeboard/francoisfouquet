@@ -61,17 +61,43 @@
                         <!--// .yui-gf -->
                         <div class="yui-gf">
                             <div class="yui-u">
-                                <h2>Supervision</h2>
+                                <h2>PhD Supervision</h2>
                                 {{#supervision}}
                                 <div class="job {{#last}}last{{/last}}">
                                     <h5>{{name}} <i>{{position}}</i></h5>
                                     <h4>{{startDate}} - {{endDate}}</h4>
-                                    <p>Topic: {{topic}}</p>
+                                    <p>{{topic}}</p>
                                     {{#keywords}}
                                     <p>Keywords: {{keywords}}</p>
                                     {{/keywords}}
                                 </div>
                                 {{/supervision}}
+                            </div>
+                        </div>
+                        <!--// .yui-gf -->
+                        <div class="yui-gf">
+                            <div class="yui-u">
+                                <h2>Courses</h2>
+                                {{#courses}}
+                                <div class="job {{#last}}last{{/last}}">
+                                  <h5>{{name}} <i>({{level}})</i></h5>
+                                  <h4>{{startDate}} - {{endDate}}</h4>
+                                  {{#keywords}}
+                                  <p>Keywords: {{keywords}}</p>
+                                  {{/keywords}}
+                                </div>
+                                {{/courses}}
+                            </div>
+                        </div>
+                        <!--// .yui-gf -->
+                        <div class="yui-gf">
+                            <div class="yui-u">
+                                <h2>Conferences and Journals program commitee participation</h2>
+                                {{#organisation}}
+                                <div class="job {{#last}}last{{/last}}">
+                                  <h5>{{name}}</h5>
+                                </div>
+                                {{/organisation}}
                             </div>
                         </div>
                         <!--// .yui-gf -->
@@ -122,9 +148,17 @@
                                 </div>
                                 {{/skills}}
                                 <div class="job">
-                                    <h5>Languages</h5> {{#languages}}
+                                    <h5>Languages</h5>
+                                    {{#languages}}
                                     <p>{{language}}: ({{fluency}})</p>
                                     {{/languages}}
+                                </div>
+                                <h2>Open Source</h2>
+                                <div class="job">
+                                  {{#projects}}
+                                    <h5>{{name}}</h5>
+                                    <p>{{url}}</p>
+                                  {{/projects}}
                                 </div>
                             </div>
                         </div>

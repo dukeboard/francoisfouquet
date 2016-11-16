@@ -119,56 +119,207 @@
   ],
   "supervision": [
     {
-      "name": "Thomas HARTMANN",
-      "position": "PhD Student",
-      "topic": "Reactive Security for Smart Grids Using Models@run.time-Based Simulation and Reasoning",
-      "keywords": "Models@Run.time, Time distortion, Quantum Thoery, BigData, What-if analytics",
-      "startDate": "2013",
-      "endDate": "Present"
-    },
-    {
-      "name": "Assaad MOAWAD",
-      "position": "PhD Student",
-      "topic": "Live machine learning on top of Models@Run.time for more seamless integrated SmartSystems",
-      "keywords": "Models@Run.time, Time distortion, BigData, Live Machine Learning, Privacy",
-      "startDate": "2014",
-      "endDate": "Present"
-    },
-    {
-      "name": "Ludovic MOULINE",
-      "position": "PhD Student",
-      "topic": "Intelligent dashboard for IOT leveraging What-If analytics",
-      "keywords": "Models@Run.time, Live Machine Learning, IHM, IOT",
-      "startDate": "2015",
-      "endDate": "Present"
-    },
-    {
       "name": "Donia EL KATEB",
       "position": "PhD Student",
       "topic": "Balancing non-functional requirements in cloud-based software: An approach based on security-aware design and multi-objective software dynamic management",
       "keywords": "Cloud, Genetic Algorithms, Optimization, Reasoning Engine, Models@Run.time",
       "startDate": "2013",
       "endDate": "2015"
+    },
+    {
+      "name": "Assaad MOAWAD",
+      "position": "PhD Student",
+      "topic": "Towards Ambient Intelligent Applications using Models@run.time and Machine Learning for Context-Aweness",
+      "keywords": "Models@Run.time, Time distortion, BigData, Live Machine Learning, Privacy",
+      "startDate": "2013",
+      "endDate": "2016"
+    },
+    {
+      "name": "Thomas HARTMANN",
+      "position": "PhD Student",
+      "topic": "Enabling Model-Driven Live Analytics for Cyber-Physical Systems: the case of Smart Grids",
+      "keywords": "Models@Run.time, Time distortion, BigData, What-if analytics",
+      "startDate": "2013",
+      "endDate": "2016"
+    },
+    {
+      "name": "Ludovic MOULINE",
+      "position": "PhD Student",
+      "topic": "What-If analytics for SmartHome using Models@Run.time",
+      "keywords": "Models@Run.time, Live Machine Learning, IHM, IOT",
+      "startDate": "2015",
+      "endDate": "Present"
+    },
+    {
+      "name": "Luiz RICCI",
+      "position": "PhD Student",
+      "topic": "Deep Search using Genetic algorithms and What-If Analytics",
+      "keywords": "MOEA, Genetic algorihtm, CPS, Smart Grid",
+      "startDate": "2017",
+      "endDate": "Present"
+    },
+    {
+      "name": "Nikos Antoniadis",
+      "position": "PhD Student",
+      "topic": "Model-Driven Analytics for Cyber-Physical Systems",
+      "keywords": "Machine Learning, Models@Run.time, CPS, Smart Grid",
+      "startDate": "2017",
+      "endDate": "Present"
+    }
+  ],
+  "courses": [
+      {
+        "name": "Advanced Techniques for Software Architecture Construction",
+        "keywords": "Component, OSGi, SOA, GWT, ORM meppers, Aspect-oriented developement",
+        "level": "Master 2",
+        "startDate": "2009",
+        "endDate": "2012"
+      },
+      {
+        "name": "Objet-based initial conception",
+        "keywords": "design patterns, parallel computing, processes, threads, deadlocks, scalable code",
+        "level": "Master 2",
+        "startDate": "2009",
+        "endDate": "2012"
+      },
+      {
+        "name": "Client/Server configurable architecture",
+        "keywords": "SOA, Inversion of Control, Modular developement, Spring, ORM mappers, JPA/JDO",
+        "level": "Master 2",
+        "startDate": "2009",
+        "endDate": "2012"
+      },
+      {
+        "name": "ESB and Urbanization of Information Systems",
+        "keywords": "Enterprise Service Bus (ESB), Integration Patterns (EIP), Message Bus (AMQP/JMS), Apache Camel",
+        "level": "Master 2",
+        "startDate": "2009",
+        "endDate": "2012"
+      },
+      {
+        "name": "Introduction to development language",
+        "keywords": "Algorithm, Complexity, Data structures,  Java",
+        "level": "Bachelor 1",
+        "startDate": "2009",
+        "endDate": "2012"
+      },
+      {
+        "name": "Component-based architecture using Kevoree",
+        "keywords": "Component-based conception, Distributed communication patterns, IoT, Hardware control, Home Automation",
+        "level": "Master 2",
+        "startDate": "2011",
+        "endDate": "2012"
+      },
+      {
+        "name": "Architecture and Middleware",
+        "keywords": "Distributed systems, Reliability, Decoupled Architecture, Message Bus, Transactional exchanges",
+        "level": "Military Master 2",
+        "startDate": "2010",
+        "endDate": "2012"
+      },
+      {
+        "name": "System of Systems from SOA to ESB",
+        "keywords": "ESB, EIA, SOA, MOM, Apache Camel, DSL design",
+        "level": "Master 2",
+        "startDate": "2013",
+        "endDate": "2015"
+      },
+      {
+        "name": "Distributed Models at runtime",
+        "keywords": "Modeling tools, EMF, KMF, Message Bus, WebSockets, WebRTC, IoT",
+        "level": "Master 2",
+        "startDate": "2015",
+        "endDate": "Present"
+      },
+      {
+        "name": "BigData and Model-driven Analytics",
+        "keywords": "Hadoop, Spark, Sensor, Machine Learning, Graph database",
+        "level": "Master 2",
+        "startDate": "2015",
+        "endDate": "Present"
+      }
+  ],
+  "organisation": [
+    {
+      "name":"IEEE International Conference on Smart Grid Communications",
+      "role":"PC Member",
+      "short":"SmartGridComm"
+    },
+    {
+      "name":"IEEE International Conference on Future Internet of Things and Cloud",
+      "role":"PC Member",
+      "short":"FiCloud"
+    },
+    {
+      "name":"International Conference on Model-Driven Engineering and Software Development",
+      "role":"PC Member",
+      "short":"MODELSWARD"
+    },
+    {
+      "name":"Middleware for Next Generation Internet Computing workshop",
+      "role":"Organizer and PC Chair",
+      "short":"M4NG"
+    },
+    {
+      "name":"Poster session track of International Conference on Modularity",
+      "role":"PC Member",
+      "short":"M4NG"
     }
   ],
   "publications": [
     {
-            "name": "Suspicious Electric Consumption Detection Based on Multi-Profiling Using Live Machine Learning",
-            "publisher": "International Conference on Smart Grid Communications",
-            "authors": "Hartmann, T., Moawad, A., Fouquet, F., Reckinger, Y., Mouelhi, T., Klein, J., & Le Traon, Y.",
-            "year": "2015"
+        "name": "Model-Driven Analytics: Connecting Data, Domain Knowledge, and Learning",
+        "publisher": "under review at Computer",
+        "authors": "Hartmann, T., Moawad, A., Fouquet, F., Jezequel, J-M. & Le Traon, Y.",
+        "year": "2017"
     },
     {
-          "name": "Beyond Discrete Modeling: Continuous and Efficient Models@Run.time for IoT",
-          "publisher": "International Conference on Model Driven Engineering Languages and Systems",
-          "authors": "Moawad, A., Hartmann, T., Fouquet, F., Nain, G., Klein, J., & Le Traon, Y.",
-          "year": "2015"
+        "name": "PIXEL: Scalable What-If Analysis with Many-World Temporal Graphs",
+        "publisher": "under review at EuroSys",
+        "authors": "Hartmann, T., Moawad, A., Fouquet, F., Rouvoy, R. & Le Traon, Y.",
+        "year": "2017"
+    },
+    {
+        "name": "The Next Evolution of MDE: A Seamless Integration of Machine Learning into Domain Modeling",
+        "publisher": "under review at Software & Systems Modeling",
+        "authors": "Hartmann, T., Moawad, A., Fouquet & Le Traon, Y.",
+        "year": "2017"
+    },
+    {
+        "name": "Near real-time electric load approximation in low voltage cables of smart grids with models@Run.time",
+        "publisher": "Symposium on Applied Computing",
+        "authors": "Hartmann, T., Moawad, A., Fouquet, F., Reckinger, Y., Klein, J., & Le Traon, Y.",
+        "year": "2016"
+    },
+    {
+        "name": "ScapeGoat: Spotting Abnormal Resource Usage in Component-based Reconfigurable Software Systems",
+        "publisher": "Journal of Systems and Software",
+        "authors": "Gonzalez-H, I., Bourcier, J., Daubert, E., Rudametkin, W., Barais, O., Fouquet, F., Baudry, B.",
+        "year": "2016"
+    },
+    {
+        "name": "Suspicious Electric Consumption Detection Based on Multi-Profiling Using Live Machine Learning",
+        "publisher": "International Conference on Smart Grid Communications",
+        "authors": "Hartmann, T., Moawad, A., Fouquet, F., Reckinger, Y., Mouelhi, T., Klein, J., & Le Traon, Y.",
+        "year": "2015"
+    },
+    {
+        "name": "Beyond Discrete Modeling: Continuous and Efficient Models@Run.time for IoT",
+        "publisher": "International Conference on Model Driven Engineering Languages and Systems",
+        "authors": "Moawad, A., Hartmann, T., Fouquet, F., Nain, G., Klein, J., & Le Traon, Y.",
+        "year": "2015"
     },
     {
         "name": "Stream my Models: Reactive Peer-to-Peer Distributed Models@run.time",
         "publisher": "International Conference on Model Driven Engineering Languages and Systems",
         "authors": "Hartmann, T., Moawad, A., Fouquet, F., Nain, G., Klein, J., & Le Traon, Y.",
         "year": "2015"
+    },
+    {
+      "name": "Mashup of metalanguages and its implementation in the kermeta language",
+      "publisher": "Software & Systems Modeling",
+      "authors": "Jézéquel, J. M., Combemale, B., Barais, O., Monperrus, M., & Fouquet, F. ",
+      "year": "2015"
     },
     {
       "name": "Polymer: A Model-Driven Approach for Simpler, Safer, and Evolutive Multi-Objective Optimization Development",
@@ -180,8 +331,7 @@
       "name": "Model-based time-distorted Contexts for efficient temporal Reasoning",
       "publisher": "International Conference on Software Engineering and Knowledge Engineering",
       "authors": "Hartmann, T., Fouquet, F., Nain, G., Brice, M., Klein, J., & Le Traon, Y.",
-      "year": "2014",
-      "bestpaper":true
+      "year": "2014"
     },
     {
       "name": "A Native Versioning Concept to Support Historized Models at Runtime",
@@ -193,12 +343,6 @@
       "name": "Generating realistic Smart Grid communication topologies based on real-data",
       "publisher": "International Conference on Smart Grid Communications",
       "authors": "Hartmann, T., Fouquet, F., Klein, J., Le Traon, Y., Pelov, A., Toutain, L., & Ropitault, T.",
-      "year": "2014"
-    },
-    {
-      "name": "Designing and evolving distributed architecture using kevoree",
-      "publisher": "International Conference on Quality of Software Architectures",
-      "authors": "Fouquet, F., Nain, G., Daubert, E., Bourcier, J., Barais, O., Plouzeau, N., & Morin, B.",
       "year": "2014"
     },
     {
@@ -224,8 +368,9 @@
     {
       "name": "Programming Languages",
       "keywords": [
-        "Java, Go, Scala, Kotlin,",
-        "JavaScript, Dart, C, C++,..."
+        "Java, Scala, Kotlin,",
+        "TypeScript, JavaScript,",
+        "Go, Dart, C, C++,..."
       ]
     },
     {
@@ -273,5 +418,27 @@
       "language": "German",
       "fluency": "Beginner"
     }
+  ],
+  "projects": [
+      {
+        "name":"Kevoree Platform",
+        "url":"kevoree.org"
+      },
+      {
+        "name":"Many World Graph",
+        "url":"mwg.kevoree.org"
+      },
+      {
+        "name":"Kermeta Language",
+        "url":"kermeta.org"
+      },
+      {
+        "name":"Polymer Framework",
+        "url":"kevoree.org/polymer"
+      },
+      {
+        "name":"ThingML Platform",
+        "url":"thingml.org"
+      }
   ]
 }
