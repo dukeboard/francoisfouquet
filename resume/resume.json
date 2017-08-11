@@ -268,20 +268,20 @@
   ],
   "publications": [
     {
-        "name": "Model-Driven Analytics: Connecting Data, Domain Knowledge, and Learning",
-        "publisher": "under review at Computer",
-        "authors": "Hartmann, T., Moawad, A., Fouquet, F., Jezequel, J-M. & Le Traon, Y.",
-        "year": "2017"
-    },
-    {
-        "name": "PIXEL: Scalable What-If Analysis with Many-World Temporal Graphs",
-        "publisher": "under review at EuroSys",
+        "name": "GreyCat: Efficient What-If Analytics for Data in Motion at Scale",
+        "publisher": "under review at Information System Journal",
         "authors": "Hartmann, T., Moawad, A., Fouquet, F., Rouvoy, R. & Le Traon, Y.",
         "year": "2017"
     },
     {
+        "name": "Analyzing Complex Data in Motion at Scale with Temporal Graphs",
+        "publisher": "International Conference on Software Engineering & Knowledge Engineering",
+        "authors": "Hartmann, T., Fouquet, F., Jimenez, M., Rouvoy, R., Le Traon, Y.",
+        "year": "2017"
+    },
+    {
         "name": "The Next Evolution of MDE: A Seamless Integration of Machine Learning into Domain Modeling",
-        "publisher": "under review at Software & Systems Modeling",
+        "publisher": "Software & Systems Modeling",
         "authors": "Hartmann, T., Moawad, A., Fouquet & Le Traon, Y.",
         "year": "2017"
     },
