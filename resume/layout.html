@@ -28,7 +28,7 @@
                         {{/basics}}
                         <div class="yui-gf">
                             <div class="yui-u">
-                                <h2>Experience</h2>
+                                <h2>Professional Experience</h2>
                                 {{#work}}
                                     <div class="job {{#last}}last{{/last}}">
                                         <h5>{{position}}, <span>{{company}}</span></h5>
@@ -46,7 +46,7 @@
                         <!--// .yui-gf -->
                         <div class="yui-gf">
                             <div class="yui-u education">
-                                <h2>Education</h2>
+                                <h2>Education Background</h2>
                                 {{#education}}
                                     <div class="job {{#last}}last{{/last}}">
                                         <h5>{{institution}}, <span>{{studyType}}, {{area}}</span></h5>
@@ -61,11 +61,13 @@
                         <!--// .yui-gf -->
                         <div class="yui-gf">
                             <div class="yui-u">
-                                <h2>PhD Supervision</h2>
+                                <h2>Supervision participation activities</h2>
                                 {{#supervision}}
                                 <div class="job {{#last}}last{{/last}}">
                                     <h5>{{name}} <i>{{position}}</i></h5>
+                                    {{#startDate}}
                                     <h4>{{startDate}} - {{endDate}}</h4>
+                                    {{/startDate}}
                                     <p>{{topic}}</p>
                                     {{#keywords}}
                                     <p>Keywords: {{keywords}}</p>
@@ -77,7 +79,25 @@
                         <!--// .yui-gf -->
                         <div class="yui-gf">
                             <div class="yui-u">
-                                <h2>Courses</h2>
+                                <h2>Conferences and Journals program commitee participation</h2>
+                                <div class="job">
+                                    <h5>PC Member activities</h5>
+                                    {{#pc-member}}
+                                    <p>{{short}}: {{name}}</p>
+                                    {{/pc-member}}
+                                </div>
+                                <div class="job last">
+                                    <h5>Reviewer activities</h5>
+                                    {{#reviewer}}
+                                    <p>{{short}}: {{name}}</p>
+                                    {{/reviewer}}
+                                </div>
+                            </div>
+                        </div>
+                        <!--// .yui-gf -->
+                        <div class="yui-gf">
+                            <div class="yui-u">
+                                <h2>Teaching activities</h2>
                                 {{#courses}}
                                 <div class="job {{#last}}last{{/last}}">
                                   <h5>{{name}} <i>({{level}})</i></h5>
@@ -91,14 +111,23 @@
                         </div>
                         <!--// .yui-gf -->
                         <div class="yui-gf">
-                            <div class="yui-u">
-                                <h2>Conferences and Journals program commitee participation</h2>
-                                {{#organisation}}
-                                <div class="job {{#last}}last{{/last}}">
-                                  <h5>{{name}}</h5>
+                                <div class="yui-u">
+                                    <h2>Performance Metrics</h2>
+                                    <div class="job">
+                                       <h5>Impact <i>(from Google Scholar)</i></h5>
+                                       <p>Best paper awards: {{metrics.bestpaper_nb}}</p>                                   
+                                       <p>Citations: {{metrics.citations_nb}}</p>
+                                       <p>H-index: {{metrics.H-index}}</p>
+                                       <p>i10-index: {{metrics.i10-index}}</p>
+                                    </div>
+                                    <div class="job last">
+                                       <h5>Number of publications</h5>
+                                       <p>Journals <i>(with acts and peer reviewed)</i>: {{metrics.journal_nb}}</p>
+                                       <p>Conferences <i>(with acts and peer reviewed)</i>: {{metrics.conf_nb}}</p>
+                                       <p>Workshops <i>(with acts and peer reviewed)</i>: {{metrics.workshop_nb}}</p>       
+                                       <p>Others <i>(national conferences and white papers)</i>: {{metrics.other_nb}}</p>                                                                      
+                                    </div>
                                 </div>
-                                {{/organisation}}
-                            </div>
                         </div>
                         <!--// .yui-gf -->
                         <div class="yui-gf">
@@ -131,7 +160,8 @@
                             <div class="contact-info">
                                 <h5><i>{{label}}</i></h5>
                                 <p>{{company}}</p>
-                                <p>{{city}}</p>
+                                <p>{{location.address}}</p>
+                                <p>{{location.postalCode}} {{location.city}} ({{location.countryCode}})</p>
                                 <p>{{email}}</p>
                                 <p>{{phone}}</p>
                             </div>
@@ -157,7 +187,8 @@
                                 <div class="job">
                                   {{#projects}}
                                     <h5>{{name}}</h5>
-                                    <p>{{url}}</p>
+                                    <i>({{keywords}})</i>
+                                    <p>{{url}}</p>                                    
                                   {{/projects}}
                                 </div>
                             </div>

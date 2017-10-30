@@ -16,11 +16,11 @@
   },
   "work": [
     {
-      "company": "DataThings (LU)",
-      "position": "Co-founder",
-      "startDate": "2017",
+      "company": "Datathings (LU)",
+      "position": "Co-founder & Chief Technology Officer (CTO)",
+      "startDate": "January 2017",
       "endDate": "Present",
-      "summary": "DataThings has been created as a spin-off my research activities to transfer our progress in live data analytics for various industrial domains",      
+      "summary": "Through Datathings, I have the opportunity to complement my research with a technology transfer. With four associates, we make near-real time data analytics a reality in various domains",
       "highlights": [
         "Industry 4.0, SmartGrid, Metal Industry (predictive maintenance)",
         "IoT & Cyber Phsical Systems (national monitoring)"
@@ -164,7 +164,9 @@
       "name": "14",
       "position":"Master Students",
       "topic":"various topics connected by IoT, sensor networks and resulting live analytics techniques such as Graph and Stream processing.",      
-      "keywords": "Modelling, IoT, Smart Home, Big Data, Machine Learning, Stream analytics"
+      "keywords": "Modelling, IoT, Smart Home, Big Data, Machine Learning, Stream analytics",
+      "startDate": "2010",
+      "endDate": "Present"
     }
   ],
   "master-supervision": [
@@ -579,15 +581,5 @@
         "url":"github.com/dukeboard/talk-app",
         "keywords":"Keynote, HTML5"
       }
-  ],
-  "metrics":{
-    "bestpaper_nb":"3",    
-    "journal_nb":"3",
-    "conf_nb":"23",    
-    "workshop_nb":"6",
-    "other_nb":"10",    
-    "citations_nb":"393",
-    "H-index":"10",
-    "i10-index":"11"
-  }
+  ]
 }
