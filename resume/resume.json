@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Dr. Francois Fouquet",
-    "label": "Research Associate",
-    "company": "SnT Luxembourg",
+    "label": "Chief Technology Officer",
+    "company": "DataThings Luxembourg",
     "city": "Luxembourg",
-    "email": "francois.fouquet@uni.lu",
-    "phone": "+352 466644 5387",
-    "summary": "Since my PhD, my research objectives are targeting the software engineering methods to build distributed, large-scale machine learning powered smart systems. As a framework design, my prototypes try to represent the backbone data layer to empower reasoning engine for Smart Systems. Since four years now, my research is now focused on the construction of time-aware systems, leveraging innovative solutions to represent temporal data using physics quantum theory to better distributed massive models. I’m mainly applying this the construction of SmartGrid systems, able for instance, to detect or predict suspicious or overload values. Towards Intelligent systems, I’m working to include the use of machine learning directly into these data structure in order create synergies between Big Data, forecasting systems and simulation mechanisms.",
+    "email": "francois.fouquet@datathings.com",
+    "phone": "+336 85 41 98 16",
+    "summary": "Since my PhD, my research and development objectives are targeting the software engineering methods to build distributed, large-scale machine learning powered smart systems. As a framework designer, my solutions take place as backbone data layer to empower reasoning engines for next-gen Industry 4.0 and Smart Grid infrastructure. After years of research in the area, my role at DataThings is now focused on the construction of time-aware systems, leveraging innovative solutions to represent tightly temporal data and data from learning algorithms, ultimately to create a real-time simulation and operational decision tools. For various industries, I’m working to promote the use of machine learning in order create synergies between Big Data, forecasting systems and simulation mechanisms.",
     "location": {
       "address": "2 rue des Eglantiers",
       "postalCode": "L-1457",
@@ -17,8 +17,8 @@
   "work": [
     {
       "company": "DataThings (LU)",
-      "position": "Co-founder",
-      "startDate": "2017",
+      "position": "Co-founder & Chief Technology Officer (CTO)",
+      "startDate": "January 2018",
       "endDate": "Present",
       "summary": "DataThings has been created as a spin-off my research activities to transfer our progress in live data analytics for various industrial domains",      
       "highlights": [
@@ -30,7 +30,7 @@
       "company": "SnT Luxembourg (LU)",
       "position": "Research Associate",
       "startDate": "January 2013",
-      "endDate": "Present",
+      "endDate": "December 2017",
       "summary": "In collaboration with the Luxembourgish electricity provider CREOS, I'm working to create Intelligent Systems to detect suspicious values or potential grid overload",
       "highlights": [
         "SmartGrid security leveraging live and real-time reactive security",
@@ -338,7 +338,7 @@
     },
     {
       "name": "Enabling lock-free concurrent workers over temporal graphs composed of multiple time-series",
-      "publisher": "under review at Annual ACM Symposium on Applied Computing",
+      "publisher": "ACM Symposium on Applied Computing",
       "authors": "Fouquet, F., Hartmann, T., Mosser, S., Cordy, M.",
       "year": "2018"
     },
@@ -350,7 +350,7 @@
     },
     {
       "name": "Enabling Temporal-Aware Contexts for Adaptative Distributed Systems",
-      "publisher": "under review at Annual ACM Symposium on Applied Computing",
+      "publisher": "Annual ACM Symposium on Applied Computing",
       "authors": "Mouline, L., Hartmann, T., Fouquet, F., Benelallam, A., Bourcier, J., Morin, B., Barais, O.",
       "year": "2018"
     },
@@ -583,11 +583,11 @@
   "metrics":{
     "bestpaper_nb":"3",    
     "journal_nb":"3",
-    "conf_nb":"23",    
+    "conf_nb":"25",    
     "workshop_nb":"6",
     "other_nb":"10",    
-    "citations_nb":"393",
-    "H-index":"10",
-    "i10-index":"11"
+    "citations_nb":"442",
+    "H-index":"11",
+    "i10-index":"12"
   }
 }
